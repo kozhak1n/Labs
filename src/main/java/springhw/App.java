@@ -14,7 +14,7 @@ public class App {
         PrinterBean printer = ctx.getBean("printerBean", PrinterBean.class);
         // Печатаем объект в консоль
         printer.print(hb);
-        // Закрываем контекст приложения 
+        // Закрываем контекст приложения
         ctx.close();
     }
 

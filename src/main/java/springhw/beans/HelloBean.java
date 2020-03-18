@@ -1,4 +1,4 @@
-﻿package springhw.beans;
+package springhw.beans;
 
 public class HelloBean {
 	private String name;
@@ -20,7 +20,7 @@ public class HelloBean {
 		this.name = name;
 	}
 
-	//Печать объекта в строку
+	//Печать объекта от руки
 	@Override
 	public String toString() {
 		return "HelloBean [name=" + name + ", getName()=" + getName() + ", getClass()=" + getClass() + ", hashCode()="
